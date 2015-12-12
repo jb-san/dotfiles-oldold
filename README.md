@@ -3,6 +3,9 @@ run
 ```
 cd ~/
 git clone git@github.com:jb-san/dotfiles.git
+
+./.dotfiles/script/install
+./.dotfiles/script/bootstrap
 ```
 
 then  run
