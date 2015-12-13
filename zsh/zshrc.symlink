@@ -51,10 +51,10 @@ done
 unset config_files
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-# # FIX: make dynamic
-# repository_root="/Users/jb/Library/Python/2.7/lib/python/site-packages"
-# sudo $repository_root/powerline/bindings/zsh/powerline.zsh
-export NVM_DIR="/Users/jb/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+
+export NVM_DIR="~/.nvm"
+source $(brew --prefix nvm)/nvm.sh
+
 source `which virtualenvwrapper.sh`
 source ~/.dotfiles/system/http_proxy.sh
